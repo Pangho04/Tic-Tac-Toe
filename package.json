@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://pangho04.github.io/Tic-Tac-Toe/",
   "scripts": {
     "dev": "vite",
-    "test": "vitest --ui"
+    "test": "vitest --ui",
+    "deploy": "gh-pages -d build",
+  "predeploy": "npm run build"
   },
   "engines": {
     "node": "18.16.0",
