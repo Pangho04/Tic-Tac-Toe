@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest --ui",
-    "deploy": "gh-pages -d /Users/pangho/Desktop/frontend-bootcamp01-w02 2/build",
+    "deploy": "npm run build && gh-pages -d build",
     "predeploy": "npm run build",
     "build": "webpack"
   },
