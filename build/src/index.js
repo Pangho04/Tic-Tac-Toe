@@ -5,7 +5,7 @@ const player2 = {color : 2, figure : 2, att : 0, check : [], undo : 3, name : "p
 const drawGame = {check : true};
 let success = []; // 정답배열 들어갈 곳, 성공시 정답 배열 초기화를 위해 let 사용
 
-const startButton = document.querySelector(".game-start-button");
+const startButton = document.querySelector(".game-start");
 const screen1 = document.querySelector(".screen1");
 const screen2 = document.querySelector(".screen2");
 const boardColor1 = document.querySelector(".player-board-color");
